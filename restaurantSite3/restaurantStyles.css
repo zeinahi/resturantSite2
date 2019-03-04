@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+h1{
+	font-weight:bold;
+	font-family:'Fugaz One',cursive;
+	font-size: 40px;
+	text-decoration:underline;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.nav-item{
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+/*
+.bgimg {
+    background-position:center;
+    background-size: cover;
+    min-height: 75%;
+}*/
+
+.container{
+	font-weight: bold;
+	text-align: justify;
+}
+
+.col-sm-4, .col-sm-6, .col-sm-12{
+	text-align: center;
+
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+	color:#E2B13C;
+}
+
+a:link{
+	padding-left: 8;
+	color:#4f2d91;
+}
+
+.jumbotron{
+	background-color:#edc647 !important; 
+	padding: 25px
+	color:inherit;
+	font-family: 'Open Sans', sans-serif;
+}
+.row-1 {
+	font-weight: bold;
+}
+#footer{
+	font-family:'Fugaz One', cursive;
+	font-size: 12px;
+	width: 100%;
+	text-align:center;
+}

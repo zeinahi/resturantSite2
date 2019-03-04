@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="restaurantStyles.css">
+<!-- 	Font -->
+	<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+	    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<!-- Bootstrap Js -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+<style>
+/*
+	body{
+		background-image: url(images/lordsloaf.png);
+		background-size:cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 60px;
+		text-align: justify;
+}*/
+
+/*	h1 {
+  color: #c4c7ce !important;
+  text-align: left;
+}*/
+
+	body{
+		background-color:#d0d7e2;
+		text-align: center;
+}
+
+</style>
+
+</head>
+	<body>
+		<h1> Lord Loaf </h1>
+
+
+	<!-- <div id="navigation">
+		<ul class="nav nav-tabs">
+			<li class="active">
+			<li><a href="home.html" target="_blank"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="menu.html" target="_blank"><span class="glyphicon glyphicon-list-alt"></a></li>
+			<li><a href="contact.html" target="_blank"><span class="glyphicon glyphicon-envelope"></span></a></li>
+		</ul>
+<hr/>
+	</div> -->
+
+<ul class="nav nav-pills nav-fill">
+  	<li class="nav-item">
+    	<a class="nav-link" href="index.html">Home</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="menu.html">Lunch Menu</a>
+ 	 </li>
+  	<li class="nav-item">
+   		<a class="nav-link" href="contactUs.html">Contact Us</a>
+  	</li>
+</ul> </div>		
+		<h4><form action= "submit.html" method= "POST">
+		First Name <input type= "text" id="firstName" name= "firstName"><br/>
+		Last Name <input type = "text" id="lastName" name= 'lastName'><br/>
+		Email <input type= "text" id= "email" name="yourEmail"><br/>
+		Phone <input type= "text" id= "phone" name= "yourPhone"><br/>
+		Reason for Inquiry <select name= "Reason for Inquiry">
+			<option value ="Catering">Catering </defualt> 
+			<option value="privateParty">Private Party </option>
+			<option value="feedback">Feedback </option>
+			<option value= "other">Other </option> 
+				</select> <br/>
+		Additional Information <textarea id=info name="additionalInformation"></textarea> <br/>
+	
+		<p>Have you been to the Restaurant?</p> 
+		<!-- use radio type to select only one option from choices -->
+		Yes <input type="radio" id=choice1 name="yes" value= "yes">
+		No <input type="radio" id=choice2 name="no" value= "no">
+
+		<p> Best days to contact you</p>
+		M <input type="checkbox" id="monday" name="weekday" value="monday">
+		T <input type="checkbox" id="tuesday" name="weekday" value="tuesday">
+		W <input type="checkbox" id="wednesday" name="weekday" value="wednesday">
+		Th <input type="checkbox" id="thursday" name="weekday" value="thursday">
+		F <input type="checkbox" id="friday" name="weekday" value="friday"></h4>
+
+		<br/>
+		<input type="submit" name="submit" value="Submit">
+		</form>
+
+	</div>
+	<div id= "footer">
+<br/>
+		<footer>
+			<p> 222 Dough Street, Bakery, New Oven 98765 </p>
+			<p> 212-567-5362
+
+		
+		<p>&copy;2018 Lord Loaf</p>
+		</footer>
+	</div>
+
+	</body>
+		
+
+
+</html>
+
